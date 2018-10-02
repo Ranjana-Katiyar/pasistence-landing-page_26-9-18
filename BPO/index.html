@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BPO Website</title>
+ 
+
+    <!-- Global Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body id="page-top">
+
+<!--====================================================
+                         HEADER
+======================================================--> 
+
+    <header>
+
+      <!-- Top Navbar  -->
+      <div class="top-menubar">
+        <div class="topmenu">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <ul class="list-inline top-contacts">
+                  <li>
+                    <i class="fa fa-envelope"></i> Email: <a href="mailto:info@bpobusiness.com">info@techbpo.com</a>
+                  </li>
+                  <li>
+                    <i class="fa fa-phone"></i> Hotline: (1) 111 222 33
+                  </li>
+                </ul>
+              </div> 
+              <div class="col-md-5">
+                <ul class="list-inline top-data">
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-facebook"></i></a></li>
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-twitter"></i></a></li>
+                  <li><a href="#" target="_empty"><i class="fa top-social fa-google-plus"></i></a></li> 
+                  <li><a href="#" class="log-top" data-toggle="modal" data-target="#login-modal">Login</a></li>  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+      
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
+        <div class="container">
+          <a class="navbar-brand smooth-scroll" href="index.aspx">
+            TECH-BPO
+          </a> 
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" ><a class="nav-link smooth-scroll" href="#home">Home</a></li>
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle smooth-scroll" href="#about" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a> 
+                  <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="JavaScript:void(0)">About Us</a>
+                    <a class="dropdown-item" href="JavaScript:void(0)">Career Oprtunity</a>
+                    <a class="dropdown-item" href="JavaScript:void(0)">Meet Our Team</a>
+                    <a class="dropdown-item" href="JavaScript:void(0)">FAQ</a>
+                    <a class="dropdown-item" href="JavaScript:void(0)">Testimonials</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle smooth-scroll" href="#comp-offer" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a> 
+                  <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="JavaScript:void(0)">Inbound Call Center</a>
+                   <a class="dropdown-item" href="JavaScript:void(0)">Outbound Call Center</a>
+                   <a class="dropdown-item" href="JavaScript:void(0)">Customer Support Service</a>
+                   <a class="dropdown-item" href="JavaScript:void(0)">Lead Generation Service</a>
+                   <a class="dropdown-item" href="JavaScript:void(0)">Help Desk Outsourcing</a>
+                      <a class="dropdown-item" href="JavaScript:void(0)">Answering Services</a>
+                      <a class="dropdown-item" href="JavaScript:void(0)">Chat Support</a>
+                      <a class="dropdown-item" href="JavaScript:void(0)">Email Support</a>
+                      <a class="dropdown-item" href="JavaScript:void(0)">Tech Support</a>
+                  </div>
+                </li>
+                
+                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="#">Clients</a></li>
+                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="#">Industries We Serve</a></li>
+                 <li class="nav-item" ><a class="nav-link smooth-scroll" href="#">Blog</a></li>
+                <li class="nav-item" ><a class="nav-link smooth-scroll" href="#">Contact Us</a></li>
+             </ul>  
+          </div>
+        </div>
+      </nav>
+    </header> 
+
+<!--====================================================
+                    LOGIN OR REGISTER
+======================================================-->
+    <section id="login">
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header" align="center">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span class="fa fa-times" aria-hidden="true"></span>
+                      </button>
+                  </div>
+                  <div id="div-forms">
+                      <form id="login-form">
+                          <h3 class="text-center">Login</h3>
+                          <div class="modal-body">
+                              <label for="username">Username</label> 
+                              <input id="login_username" class="form-control" type="text" placeholder="Enter username " required>
+                              <label for="username">Password</label> 
+                              <input id="login_password" class="form-control" type="password" placeholder="Enter password" required>
+                              <div class="checkbox">
+                                  <label>
+                                      <input type="checkbox"> Remember me
+                                  </label>
+                              </div>
+                          </div>
+                          <div class="modal-footer text-center">
+                              <div>
+                                  <button type="submit" class="btn btn-general btn-white">Login</button>
+                              </div>
+                              <div>
+                                  <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                              </div>
+                          </div>
+                      </form>
+                      <form id="register-form" style="display:none;">
+                          <h3 class="text-center">Register</h3>
+                          <div class="modal-body"> 
+                              <label for="username">Username</label> 
+                              <input id="register_username" class="form-control" type="text" placeholder="Enter username" required>
+                              <label for="register_email">E-mailId</label> 
+                              <input id="register_email" class="form-control" type="text" placeholder="Enter eMail" required>
+                              <label for="register_password">Password</label> 
+                              <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+                          </div>
+                          <div class="modal-footer">
+                              <div>
+                                  <button type="submit" class="btn btn-general btn-white">Register</button>
+                              </div>
+                              <div>
+                                  <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>      
+
+<!--====================================================
+                         HOME
+======================================================-->
+    <section id="home">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel"> 
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active slides">
+              <div class="overlay"></div>
+              <div class="slide-1"></div>
+                <div class="hero ">
+                  <hgroup class="wow fadeInUp">
+                      <h1>We Help <span ><a href="" class="typewrite" data-period="2000" data-type='[ " Business", " Innovations"]'>
+                        <span class="wrap"></span></a></span> </h1>        
+                      <h3>Global Call Center with operations in 3 Countries US, UK and India</h3>
+                  </hgroup>
+                  <button class="btn btn-general btn-green wow fadeInUp" role="button">Contact Now</button>
+                </div>           
+            </div> 
+        </div> 
+      </div> 
+    </section> 
+
+<!--====================================================
+                        ABOUT
+======================================================-->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row title-bar">
+          <div class="col-md-12">
+            <h1 class="wow fadeInUp">We committed to helping</h1>
+            <div class="heading-border"></div>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">Your search for a competent 24 hour B2B corporate call center and achieving high performance through Business Process Outsourcing ends here! </p>
+            <div class="title-but"><button class="btn btn-general btn-green" role="button">Read More</button></div>
+          </div>
+        </div>
+      </div>  
+      <!-- About right side withBG parallax -->
+      <div class="container-fluid">
+        <div class="row"> 
+          <div class="col-md-4 bg-starship">
+            <div class="about-content-box wow fadeInUp" data-wow-delay="0.3s">
+              <i class="fa fa-phone"></i>
+              <h5>Call Center Services</h5>
+              <p class="desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div> 
+          <div class="col-md-4 bg-chathams">
+            <div class="about-content-box wow fadeInUp" data-wow-delay="0.5s">
+              <i class="fa fa-circle-o-notch"></i>
+              <h5>Analytics Services</h5>
+              <p class="desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div> 
+          <div class="col-md-4 bg-matisse">
+            <div class="about-content-box wow fadeInUp" data-wow-delay="0.7s">
+              <i class="fa fa-user"></i>
+              <h5>Human Resource Outsourcing Services</h5>
+              <p class="desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div> 
+        </div> 
+      </div>       
+    </section> 
+
+<!--====================================================
+                        OFFER
+======================================================-->
+    <section id="comp-offer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.2s">
+            <h2>What We Offer</h2>
+            <div class="heading-border-light"></div> 
+            <button class="btn btn-general btn-green" role="button">See Curren Offers</button>
+            <button class="btn btn-general btn-white" role="button">Contact Us Today</button>
+          </div>
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.4s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img src="images/Call-Center-Banner-1.jpg" class="img-fluid" alt="...">
+              </div>
+              <h3>Business Process Outsourcing</h3>
+              <p class="desc">Keep your customers happy and engaged with our inbound call center services. </p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>          
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.6s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img src="images/Outsourcing.jpg" class="img-fluid" alt="...">
+              </div>              
+              <h3>Call Center Outsourcing</h3>
+              <p class="desc">Achieve operational efficiency with our best-in-class call center outsourcing solutions. </p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.8s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img src="images/inbound-call-center.jpg" class="img-fluid" alt="...">
+              </div>
+              <h3>Inbound Call Center</h3>
+              <p class="desc">Keep your customers happy and engaged with our inbound call center services.</p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--====================================================
+                     WHAT WE DO
+======================================================-->
+    <section class="what-we-do bg-gradiant">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>What we Do</h3>
+            <div class="heading-border-light"></div> 
+            <p class="desc">We partner with clients to put recommendations into practice. </p>
+          </div>
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-users"></i>
+                  <h6>Customer Support Service</h6>
+                  <p class="desc">All interactions between a customer and a product provider at the time of sale, thereafter . </p>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-handshake-o"></i>
+                  <h6>Help Desk Outsourcing</h6>
+                  <p class="desc">Outsourcing denotes the continuous procurement of services from a third party. </p>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-phone"></i>
+                  <h6>Answering Services</h6>
+                  <p class="desc">We provide 24x7 answering services in our business through calls to our clients. </p>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-comment"></i>
+                  <h6>Chat Support</h6>
+                  <p class="desc">Chat Support in a form of synchronous messaging where the customer and the agent must both be present at a time. </p>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-shopping-bag"></i>
+                  <h6>Order Tracking</h6>
+                  <p class="desc">We provide order tracking service to our clients. </p>
+                </div>
+              </div>
+              <div class="col-md-4  col-sm-6">
+                <div class="what-we-desc">
+                  <i class="fa fa-envelope"></i>
+                  <h6>Email Support</h6>
+                  <p class="desc">We provide email support to our clients in 24x7 time. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </section> 
+
+<!--====================================================
+                      STORY
+======================================================--> 
+    <section id="story">
+        <div class="container">
+          <div class="row title-bar">
+            <div class="col-md-12">
+              <h1 class="wow fadeInUp">Our Success Tranformation Story</h1>
+              <div class="heading-border"></div> 
+            </div>
+          </div>
+        </div>  
+        <div class="container-fluid">
+          <div class="row" >
+            <div class="col-md-6" >
+              <div class="story-himg" >
+                <img src="images/banner.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="story-desc">
+                <h3>How to grow your business with Us</h3>
+                <div class="heading-border-light"></div> 
+                <p>In India, Business Process Outsourcing (BPO) is the fastest growing segment of the ITES (Information Technology Enabled Services) industry. Factors such as economy of scale, business risk mitigation, cost advantage, utilization improvement and superior competency have all lead to the growth of the Indian BPO industry. Business process outsourcing in India, which started around the mid-90s, has now grown by leaps and bounds.</p>
+                <p>The BPO sector in India is estimated to have reached a 54 per cent growth in revenue.The demand for Indian BPO services has been growing at an annual growth rate of 50%.</p><p class="text-right" style="font-style: italic; font-weight: 700;"><a href="JavaScript:void();">Serving the crowd</a></p>
+                <div class="title-but"><button class="btn btn-general btn-green" role="button">Read More</button></div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"> 
+              <div class="story-descb">
+                  <img src="images/data-entry.jpg" class="img-fluid" style="height:200px;" alt="...">
+                  <h6>Data Entry And Processing Services</h6>
+                  <p> We provide Data Entry Services. Data entry is the act of entering information into electronic formats. Data is often entered into a computer from paper documents using a keyboard, optical scanner, or data recorder..</p>
+                  <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Read More</a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"> 
+              <div class="story-descb">
+                  <img src="images/digitalmarketing.png" class="img-flui" style="height:200px;" alt="...">
+                  <h6>Digital Marketing Services</h6>
+                  <p>We provide marketing of products or services using digital channels to reach consumers. The key objective is to promote brands through various forms of digital media.</p>
+                  <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Read More</a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"> 
+              <div class="story-descb">
+                  <img src="images/creative.jpg" class="img-fluid" style="height:200px;" alt="...">
+                  <h6>Creative Design Services</h6>
+                  <p>We provide creative designing services to our customers.Design is the visual, UX, photography and video services. Technology is the engineering, data and systems services.</p>
+                  <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Read More</a>
+              </div>
+            </div>                        
+          </div>
+        </div>  
+    </section>
+
+<!--====================================================
+                  COMPANY THOUGHT
+======================================================-->
+    <div class="overlay-thought"></div>
+    <section id="thought" class="bg-parallax thought-bg">
+      <div class="container">
+        <div id="thought-desc" class="row title-bar title-bar-thought owl-carousel owl-theme">
+          <div class="col-md-12 ">
+            <div class="heading-border bg-white"></div>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">A proven leader in Inbound and Outbound Call Center Services.</p>
+             
+          </div>
+          <div class="col-md-12 thought-desc">
+            <div class="heading-border bg-white"></div>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">Serving BPO needs of several Global Brands, Including all the leading Companies. </p>
+            
+          </div>
+        </div>
+      </div>         
+    </section> 
+    
+<!--====================================================
+                   SERVICE-HOME
+======================================================--> 
+    <!--<section id="service-h">
+        <div class="container-fluid">
+          <div class="row" >
+            <div class="col-md-6" >
+              <div class="service-himg" > 
+                <iframe src="https://www.youtube.com/embed/754f1w90gQU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+              <div class="service-h-desc">
+                <h3>We are Providing great Services</h3>
+                <div class="heading-border-light"></div> 
+                <p>Businessbox offer the full spectrum of services to help organizations work better. Everything from creating standards of excellence to training your people to work in more effective ways.</p>  
+              <div class="service-h-tab"> 
+                <nav class="nav nav-tabs" id="myTab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-expanded="true">Developing</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile">Training</a> 
+                  <a class="nav-item nav-link" id="my-profile-tab" data-toggle="tab" href="#my-profile" role="tab" aria-controls="my-profile">Medical</a> 
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><p>Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure officia enim reprehenderit. Magna duis labore cillum sint adipisicing exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute. exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute. </p></div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <p>Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure officia enim reprehenderit. Magna duis labore cillum sint adipisicing exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute</p>
+                  </div> 
+                  <div class="tab-pane fade" id="my-profile" role="tabpanel" aria-labelledby="my-profile-tab">
+                    <p>Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure officia enim reprehenderit. Magna duis labore cillum sint adipisicing exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute</p>
+                  </div> 
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </section>-->
+
+<!--====================================================
+                      CLIENT
+======================================================-->
+    <section id="client" class="client">
+      <div class="container">
+        <div class="row title-bar">
+          <div class="col-md-12">
+            <h1 class="wow fadeInUp">What Our Client Says</h1>
+            <div class="heading-border"></div>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">We committed to helping you maintain your Brand Value.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="client-cont wow fadeInUp" data-wow-delay="0.1s">
+              <img src="images/pawn.png" class="img-fluid" alt="">
+              <h5>Geo Thomas</h5>
+              <h6>Askgeo CEO</h6>
+              <i class="fa fa-quote-left"></i>
+              <p>TechBPO has become an integral part of my company with the services they provide. Most of the work that was hard for me to do has been taken efficiently by TechBPO.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="client-cont wow fadeInUp" data-wow-delay="0.3s">
+              <img src="images/pawn.png" class="img-fluid" alt="">
+              <h5>Shreyas Dhande</h5>
+              <h6>Founder</h6>
+              <i class="fa fa-quote-left"></i>
+              <p>The Company has provided us simple solutions for our hectic problems. That was a great experience in working with them.</p>
+            </div>
+          </div>
+        </div>
+      </div>        
+    </section>  
+
+<!--====================================================
+                    CONTACT HOME
+======================================================-->
+    <div class="overlay-contact-h"></div>
+    <section id="contact-h" class="bg-parallax contact-h-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-h-cont">
+              <h3 class="cl-white">Continue The Conversation</h3><br>
+              <form>
+                <div class="form-group cl-white">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name"> 
+                </div>  
+                <div class="form-group cl-white">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+                </div>  
+                <div class="form-group cl-white">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" aria-describedby="subjectHelp" placeholder="Enter subject"> 
+                </div>  
+                <div class="form-group cl-white">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>  
+                <button class="btn btn-general btn-white" role="button"><i fa fa-right-arrow></i>MESSAGE US</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>         
+    </section> 
+
+<!--====================================================
+                       NEWS
+======================================================-->
+    <section id="comp-offer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-sm-6  desc-comp-offer wow fadeInUp" data-wow-delay="0.2s">
+            <h2>Latest Blogs</h2>
+            <div class="heading-border-light"></div> 
+            <button class="btn btn-general btn-green" role="button">See More</button>
+          </div>
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.4s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img class="img-height" src="images/home-market-1.jpg" class="img-fluid" alt="...">
+              </div>
+              <h3>Why do customers love to interact with real persons?</h3>
+              <p class="desc">Good customer service means helping customers efficiently, in a friendly manner. It's essential to be able to handle issues for customers and do your best to ensure they are satisfied. </p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.6s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img class="img-height" src="images/Legal-firms-HD.jpg" class="img-fluid" alt="...">
+              </div>
+              <h3>Third Party Verification Services: An ignored employees benefit</h3>
+              <p class="desc">Third party verification (TPV) is a process of getting an independent party to confirm that the customer is actually requesting a change or ordering a new service or product.</p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 desc-comp-offer wow fadeInUp" data-wow-delay="0.8s">
+            <div class="desc-comp-offer-cont">
+              <div class="thumbnail-blogs">
+                  <div class="caption">
+                    <i class="fa fa-chain"></i>
+                  </div>
+                  <img class="img-height" src="images/CALL-CENTER-GIRL.png" class="img-fluid" alt="...">
+              </div>
+              <h3>Outsourcing Telemarketing services for small businesses</h3>
+              <p class="desc">Our organization utilize an outsourced telemarketing partner as part of their overall program strategy to achieve their customer contact goals & Achieve operational efficiency.  </p>
+              <a href="JavaScript:void(0)"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--====================================================
+                      FOOTER
+======================================================--> 
+    <footer> 
+        <div id="footer-s1" class="footer-s1">
+          <div class="footer">
+            <div class="container">
+              <div class="row">
+                <!-- About Us -->
+                <div class="col-md-3 col-sm-6 ">
+                  
+                    
+                  <ul class="list-unstyled comp-desc-f">
+                     <li><p><i class="fa fa-quote-left"></i><br /> We are proving BPO Services to the leading companies all over the World.We are proving Customer Support Services to the leading companies all over the World.We are proving Chat Support Services to the leading companies all over the World. </p></li> 
+                  </ul><br> 
+                </div>
+                <!-- End About Us -->
+
+                <!-- Recent News -->
+                <div class="col-md-3 col-sm-6 ">
+                  <div class="heading-footer"><h2>Navigation Links</h2></div>
+                  <ul class="list-unstyled link-list">
+                    <li><a href="JavaScript:void(0)">About us</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Services</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Clients</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Blog</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Contact us</a><i class="fa fa-angle-right"></i></li> 
+                  </ul>
+                </div>
+                <!-- End Recent list -->
+
+                <!-- Recent Blog Entries -->
+                <div class="col-md-3 col-sm-6 ">
+                  <div class="heading-footer"><h2>Services Offered</h2></div>
+                  <ul class="list-unstyled link-list">
+                    <li><a href="JavaScript:void(0)">Call Center Services</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">BPO Services</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Customer Support</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Tech Support</a><i class="fa fa-angle-right"></i></li> 
+                    <li><a href="JavaScript:void(0)">Chat Support</a><i class="fa fa-angle-right"></i></li> 
+                  </ul>
+                </div>
+                <!-- End Recent Blog Entries -->
+
+                <!-- Latest Tweets -->
+                <div class="col-md-3 col-sm-6">
+                  <div class="heading-footer"><h2>Get In Touch</h2></div>
+                  <address class="address-details-f">
+                    Ashoka Marg <br>
+                    Delhi, India <br>
+                    Phone: 200 456 5896 <br>
+                    Fax: 200 456 5896 <br>
+                    Email: <a href="mailto:info@techbpo.com" class="">info@techbpo.com</a>
+                  </address>  
+                  <ul class="list-inline social-icon-f top-data">
+                    <li><a href="JavaScript:void(0)" target="_empty"><i class="fa top-social fa-facebook"></i></a></li>
+                    <li><a href="JavaScript:void(0)" target="_empty"><i class="fa top-social fa-twitter"></i></a></li>
+                    <li><a href="JavaScript:void(0)" target="_empty"><i class="fa top-social fa-google-plus"></i></a></li> 
+                  </ul>
+                </div>
+                <!-- End Latest Tweets -->
+              </div>
+            </div><!--/container -->
+          </div> 
+        </div>
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="footer-copyrights">
+                            <p>Copyright &copy; 2018 All Rights Reserved. Crafted by <a href="http://www.pasistence.com"><img src="images/pasistence-logo.png" width="100" /></a></p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top smooth-scrolls hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </footer>
+
+    <!--Global JavaScript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery-easing/jquery.easing.min.js"></script> 
+    <script src="js/custom.js"></script> 
+  </body>
+
+</html>
+
